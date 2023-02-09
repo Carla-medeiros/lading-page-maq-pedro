@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primarylow: #008294;
+  --primarymid: #005764;
+  --primaryhigh: #003f47;
+  --secondarylow: #b3de30;
+  --secondarymid: #bbd14c;
+  --secondaryhigh: #759120;
+  --tertiarylow: #63d6ca;
+  --tertiarymid: #00b5aa;
+  --tertiaryhigh: #4ca39a;
+  --white: #fafffc;
+  --black: #03262b;
+  --graylow: #6a756d;
+  --graymid: #a4b5aa;
+  --grayhigh: #dae5de;
+  --danger: #f35a5d;
+  --success: #23bf5e;
+  --warning: #e1d037;
+}
+
+@layer utilities {
+  .scrollbar::-webkit-scrollbar {
+    width: 0.7rem;
+  }
+
+  .scrollbar::-webkit-scrollbar-track {
+    border-radius: 100vh;
+    background: #e4e4e4;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb {
+    background: #37907f;
+    border-radius: 100vh;
+    border: 1px solid white;
+  }
+
+  .scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #c0a0b9;
+  }
+}
