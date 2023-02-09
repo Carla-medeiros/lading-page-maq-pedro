@@ -7,7 +7,7 @@ const Nav = () => {
             <img
               src="/img/logo.png"
               className="mr-3 h-full"
-              alt="maq pedro logo"
+              alt="logo"
             />
           </a>
           <button
